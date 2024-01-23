@@ -1,0 +1,192 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #36B0B3;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    max-width: 100%;
+    min-width: 50%;
+    width: 100%;
+    padding-right: 70;
+}
+.menu {
+    min-width: 10%;
+    width: auto;
+    background-color:#36B0B3;
+    padding: 10px 10px 0px;
+}
+.header {
+    background-color:#159496d2;
+    color: rgba(255, 248, 248, 0.966);
+    min-height: 150px;
+    width: 100%;
+    height: 250px;
+}
+.content {
+    background-color: white;
+    min-height: 50%;
+    width: 97.6%;
+    height: 450px;
+    padding: 20px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.footer {
+    background-color:#18E4E6;
+    min-height: 10%;
+    padding-top: none;
+    text-align: center;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 250px;
+}
+
+.icon{
+    padding-top: 10px;
+    max-width: 100px;
+    display: center;
+}
+
+.titulo{
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rodape{
+    
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: none;
+}
+
+button.Marcar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border: ridge;
+    border-style: ridge;
+    background-color: rgb(133, 221, 248);
+    width: 200px;
+    height: 100px;
+    border-radius: 15%;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table.atendimento{
+    width: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+table.atendimento, td {
+    border-bottom: 1px solid #ddd;
+  }
+
+.atendimento{
+    border: solid 1px black;
+}
+tr:hover {
+    background-color: rgb(219, 219, 219);
+}
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfosContato{
+   padding-left: 40px;
+    width: 30%;
+    height: 400px;
+    display: block;
+    float: left;
+}
+
+
+.formcontato{
+    padding-left: 40px;
+    width: 50%;
+    height: 400px;
+    display: block;
+    float: right;
+   
+}
+
+.roda1{
+    width: 50%;
+    height: 68px;
+    display: block;
+    float: left;
+}
+
+.roda2{
+    width: 50%;
+    height: auto;
+   display: block;
+    float: right;
+}
+
+.logof{
+    width: 100%;
+    height: auto;
+    display: block;
+    float: none;
+}
+
+.tabelahorarios{
+    border: solid 2px black;
+    background-color: rgb(0, 121, 169);
+    color: white;
+}
+
+
+.menu2{
+    height: auto;
+    background-color: #17d0d3;
+    display: block;
+    float: center;
+    padding: 20px;
+    height: 20%;
+    
+}
+
+.menunav:li{
+    padding: 10px;
+}
+.preench{
+    display: block;
+    height: 35%;
+    width: 20%;
+}
