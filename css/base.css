@@ -182,7 +182,7 @@ tr:nth-child(even){
     
 }
 
-menunav{
+.menunav:li{
     padding: 10px;
 }
 .preench{
